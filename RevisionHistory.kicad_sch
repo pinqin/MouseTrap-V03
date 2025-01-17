@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "010b36c2-764c-4799-8bd9-d906f1229d3b")
+	(paper "A4")
+	(lib_symbols)
+	(text "Rev02 -> Rev03\n- Erledigt: Pull-Ups mindestens an D0 schaltbar machen (Schalter von SD Card? wenn io2 HIGH, kann uC nicht programmiert werdem\n- Erledigt: SMA-Buchse für Antenne\n- Ausgelassen: USB Stecker Male\nRev03 -> Rev04\n- Sind die Pullups an dem SD-Card Reader tatsächlich notwendig? Sind nicht bestückt und läuft. Mit diesen gibt es Fehler"
+		(exclude_from_sim no)
+		(at 19.812 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37987ecf-5190-4cff-9e8d-1115a4fd73c9")
+	)
+)
